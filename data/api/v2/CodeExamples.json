@@ -695,6 +695,41 @@
       "description": "Save on demand concurrency cap"
     }
   ],
+  "CreateTeamLink": [
+    {
+      "group": "team_links",
+      "suffix": "",
+      "description": "Create a team link returns \"OK\" response"
+    }
+  ],
+  "UpdateTeamLink": [
+    {
+      "group": "team_links",
+      "suffix": "",
+      "description": "Update a team link returns \"OK\" response"
+    }
+  ],
+  "UpdateTeamPermissionSetting": [
+    {
+      "group": "team_permission_settings",
+      "suffix": "",
+      "description": "Update permission setting for team returns \"OK\" response"
+    }
+  ],
+  "CreateTeam": [
+    {
+      "group": "teams",
+      "suffix": "",
+      "description": "Create a team returns \"CREATED\" response"
+    }
+  ],
+  "UpdateTeam": [
+    {
+      "group": "teams",
+      "suffix": "",
+      "description": "Update a team returns \"OK\" response"
+    }
+  ],
   "CreateUser": [
     {
       "group": "users",
