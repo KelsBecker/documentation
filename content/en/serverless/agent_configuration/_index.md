@@ -41,7 +41,7 @@ The Agent's [main configuration file][1] is `datadog.yaml`. For the serverless A
 | `DD_LOGS_CONFIG_BATCH_WAIT`                   | The maximum time (in seconds) the Datadog Agent waits to fill each batch of logs before sending. Default to `5`.                                                                                                                                     |
 | `DD_LOGS_CONFIG_OPEN_FILES_LIMIT`             | The maximum number of files that can be tailed in parallel. Default is `500`.                                                                                                                                                          |
 | `DD_LOGS_CONFIG_FILE_WILDCARD_SELECTION_MODE` | The strategy used to prioritize wildcard matches if they exceed the open file limit. Available values are `by_name` and `by_modification_time`.                                                                                               |
-| `DD_LOGS_CONFIG_LAMBDA_LOGS_TYPE`             | Source of logs to export. Value permitted is a space separated list of `function`, `platform`, `extension`. Default is everything.                                                                                                   |
+| `DD_LOGS_CONFIG_LAMBDA_LOGS_TYPE`             | Source of logs to export. Value permitted is a space separated list of `function`, `platform`, or `extension`. For example: `function extension` exports function and extension logs. By default, all three types of logs (function, platform, and extension) are exported.                                                                                                  |
 
 ### APM configuration
 
